@@ -3,6 +3,7 @@ import 'package:e_commerce_app/pages/home_page.dart';
 import 'package:e_commerce_app/pages/messages_page.dart';
 import 'package:e_commerce_app/pages/profile_page.dart';
 import 'package:e_commerce_app/pages/search_page.dart';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:iconly/iconly.dart';
 
@@ -61,15 +62,15 @@ class _BottomNavBarState extends State<BottomNavBar> {
               },
             );
           },
-          items: const [
-            BottomNavigationBarItem(icon: Icon(IconlyBold.home), label: "Home"),
+          items:  [
+            BottomNavigationBarItem(icon: Icon(IconlyBold.home), label: "Home".tr()),
             BottomNavigationBarItem(
-                icon: Icon(IconlyBold.message), label: "Messages>"),
+                icon: Icon(IconlyBold.message), label: "Messages".tr()),
             BottomNavigationBarItem(
-                icon: Icon(IconlyBold.search), label: "Search"),
-            BottomNavigationBarItem(icon: Icon(IconlyBold.bag), label: "Cart"),
+                icon: Icon(IconlyBold.search), label: "Search".tr()),
+            BottomNavigationBarItem(icon: Icon(IconlyBold.bag), label: "Cart".tr()),
             BottomNavigationBarItem(
-                icon: Icon(IconlyBold.profile), label: "Profile"),
+                icon: Icon(IconlyBold.profile), label: "Profile".tr()),
           ],
         ),
       ),

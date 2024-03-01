@@ -13,6 +13,13 @@ dependencies:
   cupertino_icons: ^1.0.2
   smooth_page_indicator: ^1.1.0
   iconly: ^1.0.1
+  logger: ^2.0.2+1
+  fluttertoast: ^8.2.4
+  url_launcher: ^6.2.5
+  device_info_plus: ^9.1.2
+  easy_localization: ^3.0.4
+  shared_preferences: ^2.2.2
+
 
 dev_dependencies:
   flutter_test:
@@ -26,7 +33,7 @@ flutter:
 
   assets:
     - assets/images/
-  #   - images/a_dot_ham.jpeg
+    - assets/translations/
 
   # fonts:
   #   - family: Schyler
